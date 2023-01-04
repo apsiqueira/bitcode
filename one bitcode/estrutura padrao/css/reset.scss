@@ -1,0 +1,40 @@
+html {}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+
+  .button {
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    background-color: $mainColor;
+  }
+
+}
+
+
+
+html {
+  font-size: 62.5%;
+}
+
+button,
+a {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.container {
+
+  width: 100%;
+  max-width: 1246px;
+  margin: 0 auto;
+  padding: 0px 15px;
+
+}

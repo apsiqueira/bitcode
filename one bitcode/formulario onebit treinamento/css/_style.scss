@@ -1,0 +1,32 @@
+@import "_colors";
+@import"_pages";
+
+* {
+  color: $colorH;
+}
+
+.container_main_backgroud {
+  background-image: url("../src/img/backgroundLp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-x: right;
+
+}
+
+.clearfix {
+  @include clearfix;
+
+}
+
+.container-color-form {
+  background-color: $container-color-form;
+
+}
+
+
+
+img {
+  height: 2rem;
+
+}

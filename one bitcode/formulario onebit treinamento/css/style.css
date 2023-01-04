@@ -1,0 +1,28 @@
+* {
+  color: #ffffff;
+}
+
+.container_main_backgroud {
+  background-image: url("../src/img/backgroundLp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-x: right;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+  overflow: hidden;
+}
+
+.container-color-form {
+  background-color: #121111;
+}
+
+img {
+  height: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
